@@ -1,7 +1,20 @@
+import Header from "./components/Header"
+import ResultsCard from "./components/ResultsCard"
+
 function App() {
- return (
-  <h1>ola mundo</h1>
- )
+  return (
+    <>
+      <Header />
+      <main>
+        <section id="movies">
+          <div className="mol-container">
+            <ResultsCard />
+            <ResultsCard />
+          </div>
+        </section>
+      </main>
+    </>
+  )
 }
 
 export default App

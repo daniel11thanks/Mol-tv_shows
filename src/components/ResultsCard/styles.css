@@ -1,0 +1,31 @@
+.mol-card {
+    background-color: #30261a;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.mol-movies-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.mol-form-control {
+    height: 46px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    padding: 0 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.mol-form-control-container {
+    display: flex;
+    flex-direction:row;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
