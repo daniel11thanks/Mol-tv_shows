@@ -1,5 +1,7 @@
+import DescriptionCard from "./components/DescriptionCard"
 import Header from "./components/Header"
 import ResultsCard from "./components/ResultsCard"
+import SearchCard from "./components/SearchCard"
 
 function App() {
   return (
@@ -8,8 +10,9 @@ function App() {
       <main>
         <section id="movies">
           <div className="mol-container">
+            <SearchCard />
             <ResultsCard />
-            <ResultsCard />
+            <DescriptionCard />
           </div>
         </section>
       </main>

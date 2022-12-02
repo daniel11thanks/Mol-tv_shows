@@ -1,0 +1,26 @@
+.description-card {
+    background-color: #30261a;
+    border-radius: 10px;
+    padding: 50px 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.mol-description-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.description-card ul li{
+    list-style-type: none;
+}
+
+.description-btn-conteiner{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}

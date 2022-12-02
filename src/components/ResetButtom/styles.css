@@ -1,0 +1,12 @@
+.mol-purple-btn {
+    height: 45px;
+    width: 150px;
+    background-color: #C97C1C;
+    color:#000;    
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
