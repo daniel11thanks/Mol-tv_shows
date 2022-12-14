@@ -78,7 +78,11 @@ a:visited {
   padding-top: 10px;
 }
 
-.description-card {
+.description-card-invisible {
+  display: none;
+}
+
+.description-visible {
   background-color: #30261a;
   border-radius: 10px;
   padding: 50px 30px;
@@ -86,6 +90,7 @@ a:visited {
   display: flex;
   justify-content:space-between;
 }
+
 
 .mol-description-title {
   color: #fff;
@@ -95,12 +100,16 @@ a:visited {
   list-style-type: none;
 }
 
-.description-card ul li{
+.description-visible ul li{
   list-style-type: none;
   margin-right: 20px;
 }
 
-.description-btn-conteiner{
+.description-btn-conteiner-invisible{
+  display: none;
+}
+
+.description-btn-conteiner-visible{
   display: flex;
   justify-content: center;
   margin-top: -20px;
