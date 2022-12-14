@@ -1,0 +1,26 @@
+.buttom {
+    padding: 15px 20px;
+    color:#000;    
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mol-orange-btn {
+    background-color: #C97C1C;
+}
+
+.mol-orange-btn:active {
+    background-color: #643d0e;
+}
+
+.mol-purple-btn {
+    background-color: #7B96AD;
+}
+
+.mol-purple-btn:active {
+    background-color: #526575;
+}

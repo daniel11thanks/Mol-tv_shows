@@ -1,6 +1,6 @@
 import './styles.css'
 import poster from '../../assets/img/pandora.jpg'
-import ResetButtom from '../ResetButtom'
+
 
 
 function DescriptionCard() {
@@ -20,7 +20,6 @@ function DescriptionCard() {
                 <img src={poster} height="280" />
             </div>
             <div className="description-btn-conteiner">
-                <ResetButtom />
             </div>
         </>
     )

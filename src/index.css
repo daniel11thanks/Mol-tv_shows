@@ -30,3 +30,78 @@ a:visited {
 #movies {
   padding: 0px 10px 40px 10px;
 }
+.results-card {
+  background-color: #30261a;
+  border-radius: 10px;
+  padding: 50px 30px;
+  margin-top: 20px;
+}
+
+.mol-results-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.results {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.results div{
+  padding: 10px 0px;
+}
+
+.results img{
+  background-color: #fff;
+  max-height: 200px;
+  width: 140px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.results img:hover{
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 174, 255));
+}
+
+.results div:active{
+  transform: scale(.9);
+}
+
+.results p{
+  text-align: center;
+  max-width: 140px;
+  padding-top: 10px;
+}
+
+.description-card {
+  background-color: #30261a;
+  border-radius: 10px;
+  padding: 50px 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.mol-description-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.description-card ul li{
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.description-btn-conteiner{
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
