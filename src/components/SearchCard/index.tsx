@@ -72,7 +72,7 @@ function SearchCard() {
                     })}
                 </div>
             </div>
-            <div className={descriptionActive ? 'description-visible'  : 'description-card-invisible'}>
+            <div className={descriptionActive ? 'description-card-visible '  : 'description-card-invisible'}>
                 <ul>
                     <li><strong>Name:</strong> {description.name? description.name : 'unavailable' } </li>
                     <li><strong>Language:</strong> {description.language? description.language : 'unavailable' } </li>

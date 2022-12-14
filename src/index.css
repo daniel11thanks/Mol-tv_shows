@@ -52,6 +52,16 @@ a:visited {
   padding: 10px;
 }
 
+@media (max-width: 576px) {
+  .results img{
+    max-width: 120px!important;
+  }
+
+  .results p {
+    max-width: 120px!important;
+  }
+}
+
 .results div{
   padding: 10px 0px;
 }
@@ -82,7 +92,7 @@ a:visited {
   display: none;
 }
 
-.description-visible {
+.description-card-visible {
   background-color: #30261a;
   border-radius: 10px;
   padding: 50px 30px;
@@ -91,6 +101,15 @@ a:visited {
   justify-content:space-between;
 }
 
+@media (max-width: 576px) {
+  .description-card-visible{
+    display: block;
+    text-align: center;
+  }
+  .description-card-visible img{
+    padding-top: 20px;
+  }
+}
 
 .mol-description-title {
   color: #fff;
@@ -100,7 +119,7 @@ a:visited {
   list-style-type: none;
 }
 
-.description-visible ul li{
+.description-card-visible ul li{
   list-style-type: none;
   margin-right: 20px;
 }
