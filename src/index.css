@@ -2,23 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 * {
-    font-family: 'roboto', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: 'roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body,
 html {
-    background-color: #fadaca;
-    color: #fff;
+  background-color: #fadaca;
+  color: #fff;
 }
 
 a,
 a:hover,
 a:visited {
-    color: unset;
-    text-decoration: none;
+  color: unset;
+  text-decoration: none;
 }
 
 .mol-container {
@@ -53,20 +53,20 @@ a:visited {
 }
 
 @media (max-width: 576px) {
-  .results img{
-    max-width: 120px!important;
+  .results img {
+    max-width: 120px !important;
   }
 
   .results p {
-    max-width: 120px!important;
+    max-width: 120px !important;
   }
 }
 
-.results div{
+.results div {
   padding: 10px 0px;
 }
 
-.results img{
+.results img {
   background-color: #fff;
   max-height: 200px;
   width: 140px;
@@ -74,15 +74,15 @@ a:visited {
   cursor: pointer;
 }
 
-.results img:hover{
+.results img:hover {
   filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 174, 255));
 }
 
-.results div:active{
-  transform: scale(.9);
+.results div:active {
+  transform: scale(0.9);
 }
 
-.results p{
+.results p {
   text-align: center;
   max-width: 140px;
   padding-top: 10px;
@@ -98,15 +98,15 @@ a:visited {
   padding: 50px 30px;
   margin-top: 20px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 @media (max-width: 576px) {
-  .description-card-visible{
+  .description-card-visible {
     display: block;
     text-align: center;
   }
-  .description-card-visible img{
+  .description-card-visible img {
     padding-top: 20px;
   }
 }
@@ -119,16 +119,16 @@ a:visited {
   list-style-type: none;
 }
 
-.description-card-visible ul li{
+.description-card-visible ul li {
   list-style-type: none;
   margin-right: 20px;
 }
 
-.description-btn-conteiner-invisible{
+.description-btn-conteiner-invisible {
   display: none;
 }
 
-.description-btn-conteiner-visible{
+.description-btn-conteiner-visible {
   display: flex;
   justify-content: center;
   margin-top: -20px;

@@ -1,26 +1,26 @@
 .buttom {
-    padding: 15px 20px;
-    color:#000;    
-    border: 1px solid #000;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  padding: 15px 20px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .mol-orange-btn {
-    background-color: #C97C1C;
+  background-color: #c97c1c;
 }
 
 .mol-orange-btn:active {
-    background-color: #643d0e;
+  background-color: #643d0e;
 }
 
 .mol-purple-btn {
-    background-color: #7B96AD;
+  background-color: #7b96ad;
 }
 
 .mol-purple-btn:active {
-    background-color: #526575;
+  background-color: #526575;
 }
